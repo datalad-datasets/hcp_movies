@@ -1,11 +1,49 @@
-# Get data from the Human Connectome Project Open Access dataset with DataLad
+# Get data from a subset (7T movie data) from the Human Connectome Project Open Access dataset with DataLad
 
 [![made-with-datalad](https://www.datalad.org/badges/made_with.svg)](https://datalad.org)
 
-This dataset enables data retrieval with DataLad (0.12.2 or later) from the
+This dataset enables data retrieval for a subset of the
 [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/) for users
 that accepted the WU-Minn HCP Consortium Open Access Data Use Terms and obtained
 valid AWS credentials via [db.humanconnectome.org](http://db.humanconnectome.org).
+
+## Movie data subset
+**Important**: For a DataLad dataset of the *full* HCP Open Access dataset,
+please go to
+[github.com/datalad-datasets/human-conntectome-project-openaccess](https://github.com/datalad-datasets/human-connectome-project-openaccess).
+
+This subset comprises the 7T movie, 7T rest, and 3T T1w_MPR1 data files for each
+participant with 7T data in the HCP Open Access dataset.
+Specifically, these files are
+
+```
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/filescans.csv
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/<sub>_7T_tfMRI_MOVIE*_{AP,PA}_SBRef.nii.gz
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/<sub>_7T_tfMRI_MOVIE*_{AP,PA}.nii.gz
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/<sub>_7T_SpinEchoFieldMap_{AP,PA}.nii.gz
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/LINKED_DATA/BEHAV/<sub>_7T_MOV*_behav.xml
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/LINKED_DATA/EYETRACKER/<sub>_7T_MOV*_eyetrack.asc
+- <sub>/unprocessed/7T/tfMRI_MOVIE*_{AP,PA}/LINKED_DATA/EYETRACKER/<sub>_7T_MOV*_eyetrack_summary.csv
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/filescans.csv
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/<sub>_7T_rfMRI_REST*_{AP,PA}_SBRef.nii.gz
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/<sub>_7T_rfMRI_REST*_{AP,PA}.nii.gz
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/<sub>_7T_SpinEchoFieldMap_{AP,PA}.nii.gz
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/LINKED_DATA/BEHAV/<sub>_7T_REST*_behav.xml
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/LINKED_DATA/EYETRACKER/<sub>_7T_REST*_eyetrack.asc
+- <sub>/unprocessed/7T/rfMRI_REST*_{AP,PA}/LINKED_DATA/EYETRACKER/<sub>_7T_REST*_eyetrack_summary.csv
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_T1w_MPR1.nii.gz
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_FieldMap_Phase.nii.gz
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_FieldMap_Magnitude.nii.gz
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_BIAS_BC.nii.gz
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_BIAS_32CH.nii.gz
+- <sub>/unprocessed/3T/T1w_MPR1/<sub>_3T_AFI.nii.gz
+```
+
+The directory structure and the file names in this subset are kept identical to
+the full HCP dataset.
+
+The purpose of this dataset is to give easy access to a single dataset with the
+7T movie data.
 
 ## Human Connectome Project
 
@@ -39,32 +77,6 @@ to retrieve file content of your choice from
 the [HCP Open Access dataset](https://registry.opendata.aws/hcp-openaccess/). You
 should only need to provide credentials once, and all subsequent `datalad get` commands
 will retrieve data without asking them again.
-
-Note that a subset of files is not available via the S3 bucket and is instead
-retrieved from the ConnectomeDB database.
-This concerns the following files:
-
-- HCP1200/{205199,200614}/MNINonlinear/Results/rfMRI_REST1_LR/rfMRI_REST1_LR.nii.gz
-- HCP1200/199251/MNINonlinear/Results/rfMRI_REST2_RL/rfMRI_REST2_RL.nii.gz
-- HCP1200/{150928,198451}/MNINonlinear/Results/rfMRI_REST2_RL/rfMRI_REST2_RL_hp2000_clean.nii.gz
-- HCP1200/{150928,208226}/MNINonlinear/Results/rfMRI_REST1_RL/rfMRI_REST1_RL_hp2000_clean.nii.gz
-- HCP1200/{150928,202820,213421}/MNINonlinear/Results/rfMRI_REST2_LR/rfMRI_REST2_LR_hp2000_clean.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_WM_LR/tfMRI_WM_LR.nii.gz
-- HCP1200/{150928,668361}/MNINonlinear/Results/tfMRI_WM_RL/tfMRI_WM_RL.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_GAMBLING_RL/tfMRI_GAMBLING_RL.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_MOTOR_LR/tfMRI_MOTOR_LR.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_MOTOR_RL/tfMRI_MOTOR_RL.nii.gz
-- HCP1200/{150928,214524}/MNINonlinear/Results/tfMRI_LANGUAGE_LR/tfMRI_LANGUAGE_LR.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_LANGUAGE_RL/tfMRI_LANGUAGE_RL.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_SOCIAL_LR/tfMRI_SOCIAL_LR.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_SOCIAL_RL/tfMRI_SOCIAL_RL.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_EMOTION_LR/tfMRI_EMOTION_LR.nii.gz
-- HCP1200/150928/MNINonlinear/Results/tfMRI_EMOTION_RL/tfMRI_EMOTION_RL.nii.gz
-
-
-When retrieving the files listed above, you will be asked to supply your ConnectomeDB credentials
-(user name and password) instead of your AWS credentials.
-As with AWS credentials, you will only need to supply these credentials once.
 
 ## Dataset structure
 
