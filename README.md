@@ -40,7 +40,8 @@ Specifically, these files are
 ```
 
 The directory structure and the file names in this subset are kept identical to
-the full HCP dataset.
+the full HCP dataset. An additional BIDS-formatted view of the dataset is
+available in the `bids` branch.
 
 The purpose of this dataset is to give easy access to a single dataset with the
 7T movie data.
