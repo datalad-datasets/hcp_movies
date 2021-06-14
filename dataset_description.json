@@ -1,0 +1,19 @@
+{
+    "Name": "HCP Movies",
+    "BIDSVersion": "1.6.0",
+    "DatasetType": "raw",
+    "Authors": [
+      "Bruce Rosen",
+      "Arthur W. Toga",
+      "Van J. Weeden"
+    ],
+    "HowToAcknowledge": "Acknowledge the HCP project as a source of data and include language similar to the following: 'Data collection and sharing for this project was provided by the Human Connectome Project (HCP; Principal Investigators: Bruce Rosen, M.D., Ph.D., Arthur W. Toga, Ph.D., Van J. Weeden, MD). HCP funding was provided by the National Institute of Dental and Craniofacial Research (NIDCR), the National Institute of Mental Health (NIMH), and the National Institute of Neurological Disorders and Stroke (NINDS). HCP data are disseminated by the Laboratory of Neuro Imaging at the University of Southern California.'",
+    "Funding": [
+      "National Institute of Dental and Craniofacial Research (NIDCR)",
+      "National Institute of Mental Health (NIMH)",
+      "National Institute of Neurological Disorders and Stroke (NINDS)"
+    ],
+    "ReferencesAndLinks": [
+      "https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release"
+    ]
+}

@@ -1,0 +1,7 @@
+DATA_USE_AGREEMENT.md
+sub-*/ses-3T/anat/sub-*_ses-3T_AFI.nii.gz
+sub-*/ses-3T/anat/sub-*_ses-3T_BIAS_32CH.nii.gz
+sub-*/ses-3T/anat/sub-*_ses-3T_BIAS_BC.nii.gz
+sub-*/ses-*/func/sub-*_ses-*_task-*_behav.xml
+sub-*/ses-*/func/sub-*_ses-*_task-*_recording-eyetracking_physio.*
+sub-*/ses-*/func/*filescans.csv
