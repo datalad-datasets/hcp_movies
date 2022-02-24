@@ -1,0 +1,13 @@
+1621345259.952892614s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/T1w_MPR1/845458_3T_BIAS_32CH.nii.gz?versionId=_1mzxPPx_XweADygsZNT_5XCbvWd0mse
+1621345260.507099079s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/T2w_SPC1/845458_3T_BIAS_32CH.nii.gz?versionId=Xbq2ggsicJFrK0Hv6HqPcg1.8Tqsmkm9
+1621345261.003014397s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/T2w_SPC2/845458_3T_BIAS_32CH.nii.gz?versionId=VK_aBIKZQpNmeGVny2y9yiuinuIDa.Yi
+1621345261.526718566s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/rfMRI_REST2_LR/845458_3T_BIAS_32CH.nii.gz?versionId=U47A3PyhX0K7zcnGTKWHPaeCZVJrc7wD
+1621345262.066780829s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/rfMRI_REST2_RL/845458_3T_BIAS_32CH.nii.gz?versionId=7zFQX9eOHEPAandkDpDwWpVlRNCKm_W_
+1621345262.639321967s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_EMOTION_LR/845458_3T_BIAS_32CH.nii.gz?versionId=fYJO3of9jsXbFPeY1DpRyizrDFRSRlXB
+1621345263.132082298s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_EMOTION_RL/845458_3T_BIAS_32CH.nii.gz?versionId=YRVautAaEwTZKW5_h4_tSIRLPxF19cMy
+1621345263.58966335s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_LANGUAGE_LR/845458_3T_BIAS_32CH.nii.gz?versionId=pF8L8OdTY39PW4bYAzHfb3K5ICHz8aU0
+1621345264.035426496s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_LANGUAGE_RL/845458_3T_BIAS_32CH.nii.gz?versionId=0FFuQslvFITPzz6r9CTFtLwhvxTTx0KL
+1621345264.650701446s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_RELATIONAL_LR/845458_3T_BIAS_32CH.nii.gz?versionId=Ngb4oFADUkjpPoeMNljehhe.QsSVNArz
+1621345265.21893742s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_RELATIONAL_RL/845458_3T_BIAS_32CH.nii.gz?versionId=.5z11jScm_8nIjHMTmlpseF3cxdG9URV
+1621345265.77788303s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_SOCIAL_LR/845458_3T_BIAS_32CH.nii.gz?versionId=gB7h0k36v1aMp4ccptQ8aCji8eOrlpS2
+1621345266.350972861s 1 :s3://hcp-openaccess/HCP_1200/845458/unprocessed/3T/tfMRI_SOCIAL_RL/845458_3T_BIAS_32CH.nii.gz?versionId=Rjvc8iY1tqoUfX_KQ96MNCFg1_lU2Kx8
