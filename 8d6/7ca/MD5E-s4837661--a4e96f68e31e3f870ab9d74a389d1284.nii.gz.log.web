@@ -1,5 +1,6 @@
 1645693663.56719603s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/rfMRI_REST2_AP/177746_7T_SpinEchoFieldMap_AP.nii.gz
 1621362094.958601805s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/rfMRI_REST2_AP/177746_7T_SpinEchoFieldMap_AP.nii.gz?versionId=Ik9v.XklIufSFCTacPFdHrn2d73f2Wxy
+1645693664.915599579s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/tfMRI_RETCCW_AP/177746_7T_SpinEchoFieldMap_AP.nii.gz
 1621362095.469809277s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/tfMRI_RETCCW_AP/177746_7T_SpinEchoFieldMap_AP.nii.gz?versionId=kFXJt9Bzf8p1Nwo.1WYRj5_LwCcSTsvz
 1621362095.977559027s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/tfMRI_RETCON_PA/177746_7T_SpinEchoFieldMap_AP.nii.gz?versionId=5nR8a1.X.7TPRgw0fVipe1KFg38Nj3fY
 1621362096.486613259s 1 :s3://hcp-openaccess/HCP_1200/177746/unprocessed/7T/tfMRI_RETCW_PA/177746_7T_SpinEchoFieldMap_AP.nii.gz?versionId=6zz7Rg5oyYm_xlUALj3iX3WNfeNjkWWY
